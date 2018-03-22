@@ -163,7 +163,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" sceneName="car.dae" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1r-iR-dgO">
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" sceneName="car.scn" allowsCameraControl="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1r-iR-dgO">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.0" green="0.67843137249999996" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                             </sceneKitView>

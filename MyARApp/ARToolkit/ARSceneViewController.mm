@@ -124,7 +124,7 @@
 }
 
 - (SCNNode *)carNode {
-  SCNScene *carScene = [SCNScene sceneNamed:@"car.dae"];
+  SCNScene *carScene = [SCNScene sceneNamed:@"car.scn"];
   SCNNode *carNode = [SCNNode node];
   NSArray *carSceneChildNodes = carScene.rootNode.childNodes;
   for (SCNNode *childNode in carSceneChildNodes) {

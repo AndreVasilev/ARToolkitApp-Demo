@@ -38,7 +38,7 @@ class ARViewController: UIViewController {
     }
     
     func addCar(x: Float = 0, y: Float = 0, z: Float = -0.5) {
-        guard let carScene = SCNScene(named: "car.dae") else { return }
+        guard let carScene = SCNScene(named: "car.scn") else { return }
         let carNode = SCNNode()
         let carSceneChildNodes = carScene.rootNode.childNodes
         for childNode in carSceneChildNodes {

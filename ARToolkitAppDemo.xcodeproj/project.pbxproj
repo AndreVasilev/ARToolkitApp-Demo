@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55017EBC206143B0008222C6 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017EBA206143B0008222C6 /* ARViewController.swift */; };
+		55F07E9720638C7B00755EAB /* car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07E9620638C7B00755EAB /* car.scn */; };
 		55F56AA420601B2E002FC595 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 55F56AA320601B2E002FC595 /* car.dae */; };
 		663859431F7409B9006C27C9 /* doritos-logo-big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6658F6B31F74088D0087415E /* doritos-logo-big.jpg */; };
 		6658F6091F73A3560087415E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6081F73A3560087415E /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		55017EBA206143B0008222C6 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		55F07E9620638C7B00755EAB /* car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car.scn; sourceTree = "<group>"; };
 		55F56AA320601B2E002FC595 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
 		6658F6051F73A3560087415E /* ARToolkitAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARToolkitAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6658F6081F73A3560087415E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				55F56AA320601B2E002FC595 /* car.dae */,
+				55F07E9620638C7B00755EAB /* car.scn */,
 				6658F6B31F74088D0087415E /* doritos-logo-big.jpg */,
 			);
 			path = Resources;
@@ -404,6 +407,7 @@
 				663859431F7409B9006C27C9 /* doritos-logo-big.jpg in Resources */,
 				6658F6131F73A3560087415E /* LaunchScreen.storyboard in Resources */,
 				55F56AA420601B2E002FC595 /* car.dae in Resources */,
+				55F07E9720638C7B00755EAB /* car.scn in Resources */,
 				6658F6101F73A3560087415E /* Assets.xcassets in Resources */,
 				6658F60E1F73A3560087415E /* Main.storyboard in Resources */,
 			);
@@ -567,7 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XUA59DW6PA;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_PLATFORM_IOS,
@@ -595,7 +599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XUA59DW6PA;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					TARGET_PLATFORM_IOS,
