@@ -7,8 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55017EBC206143B0008222C6 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017EBA206143B0008222C6 /* ARViewController.swift */; };
+		55017EBC206143B0008222C6 /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55017EBA206143B0008222C6 /* ARKitViewController.swift */; };
 		55F07E9720638C7B00755EAB /* car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07E9620638C7B00755EAB /* car.scn */; };
+		55F07EBA206390AA00755EAB /* candle.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB92063906900755EAB /* candle.scn */; };
+		55F07EBB206390B200755EAB /* candle_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB22063906900755EAB /* candle_AO.png */; };
+		55F07EBC206390B200755EAB /* candle_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB32063906900755EAB /* candle_METALLIC.png */; };
+		55F07EBD206390B200755EAB /* flame_PARTICLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB42063906900755EAB /* flame_PARTICLE.png */; };
+		55F07EBE206390B200755EAB /* candle_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB52063906900755EAB /* candle_DIFFUSE.png */; };
+		55F07EBF206390B200755EAB /* candle_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB62063906900755EAB /* candle_SHADOW.png */; };
+		55F07EC0206390B200755EAB /* candle_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB72063906900755EAB /* candle_NORMAL.png */; };
+		55F07EC1206390B200755EAB /* candle_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EB82063906900755EAB /* candle_ROUGHNESS.png */; };
+		55F07EEB2063912300755EAB /* environment_blur.exr in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED52063910400755EAB /* environment_blur.exr */; };
+		55F07EEC2063912300755EAB /* environment.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED62063910400755EAB /* environment.jpg */; };
+		55F07EED2063912A00755EAB /* vase_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC42063910300755EAB /* vase_ROUGHNESS.png */; };
+		55F07EEE2063912A00755EAB /* vase_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC52063910300755EAB /* vase_AO.png */; };
+		55F07EEF2063912A00755EAB /* vase_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC62063910300755EAB /* vase_SHADOW.png */; };
+		55F07EF02063912A00755EAB /* vase_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC72063910300755EAB /* vase_METALLIC.png */; };
+		55F07EF12063912A00755EAB /* vase_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC82063910300755EAB /* vase_NORMAL.png */; };
+		55F07EF22063912A00755EAB /* water_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EC92063910300755EAB /* water_DIFFUSE.png */; };
+		55F07EF32063912A00755EAB /* vase_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ECA2063910300755EAB /* vase_DIFFUSE.png */; };
+		55F07EF42063912A00755EAB /* vase.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ECB2063910300755EAB /* vase.scn */; };
+		55F07EF52063913200755EAB /* lamp_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ECE2063910400755EAB /* lamp_NORMAL.png */; };
+		55F07EF62063913200755EAB /* lamp_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ECF2063910400755EAB /* lamp_SHADOW.png */; };
+		55F07EF72063913200755EAB /* lamp_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED02063910400755EAB /* lamp_METALLIC.png */; };
+		55F07EF82063913200755EAB /* lamp_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED12063910400755EAB /* lamp_DIFFUSE.png */; };
+		55F07EF92063913200755EAB /* lamp_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED22063910400755EAB /* lamp_ROUGHNESS.png */; };
+		55F07EFA2063913200755EAB /* lamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED32063910400755EAB /* lamp.scn */; };
+		55F07EFB2063913800755EAB /* cup_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07ED92063910500755EAB /* cup_NORMAL.png */; };
+		55F07EFC2063913800755EAB /* cup_steam_SPRITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDA2063910500755EAB /* cup_steam_SPRITE.png */; };
+		55F07EFD2063913800755EAB /* cup_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDB2063910500755EAB /* cup_SHADOW.png */; };
+		55F07EFE2063913800755EAB /* cup_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDC2063910500755EAB /* cup_ROUGHNESS.png */; };
+		55F07EFF2063913800755EAB /* cup_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDD2063910500755EAB /* cup_DIFFUSE.png */; };
+		55F07F002063913800755EAB /* cup_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDE2063910500755EAB /* cup_METALLIC.png */; };
+		55F07F012063913800755EAB /* cup_AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EDF2063910500755EAB /* cup_AO.png */; };
+		55F07F022063913800755EAB /* cup.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE02063910500755EAB /* cup.scn */; };
+		55F07F032063913D00755EAB /* chair_METALLIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE42063910500755EAB /* chair_METALLIC.png */; };
+		55F07F042063913D00755EAB /* chair_SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE52063910500755EAB /* chair_SHADOW.png */; };
+		55F07F052063913D00755EAB /* chair_ROUGHNESS.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE62063910500755EAB /* chair_ROUGHNESS.png */; };
+		55F07F062063913D00755EAB /* chair_DIFFUSE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE72063910500755EAB /* chair_DIFFUSE.png */; };
+		55F07F072063913D00755EAB /* chair_NORMAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE82063910500755EAB /* chair_NORMAL.png */; };
+		55F07F082063913D00755EAB /* chair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 55F07EE92063910500755EAB /* chair.scn */; };
+		55F07F0B206392C500755EAB /* ModelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F07F0A206392C500755EAB /* ModelsTableViewController.swift */; };
+		55F07F0E206393D300755EAB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F07F0D206393D300755EAB /* BaseViewController.m */; };
+		55F07F11206394D500755EAB /* KitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F07F10206394D500755EAB /* KitsTableViewController.swift */; };
+		55F07F152063969500755EAB /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F07F142063969500755EAB /* SceneKitViewController.swift */; };
 		55F56AA420601B2E002FC595 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 55F56AA320601B2E002FC595 /* car.dae */; };
 		663859431F7409B9006C27C9 /* doritos-logo-big.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6658F6B31F74088D0087415E /* doritos-logo-big.jpg */; };
 		6658F6091F73A3560087415E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6658F6081F73A3560087415E /* AppDelegate.swift */; };
@@ -30,8 +72,51 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55017EBA206143B0008222C6 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		55017EBA206143B0008222C6 /* ARKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
 		55F07E9620638C7B00755EAB /* car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car.scn; sourceTree = "<group>"; };
+		55F07EB22063906900755EAB /* candle_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_AO.png; sourceTree = "<group>"; };
+		55F07EB32063906900755EAB /* candle_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_METALLIC.png; sourceTree = "<group>"; };
+		55F07EB42063906900755EAB /* flame_PARTICLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flame_PARTICLE.png; sourceTree = "<group>"; };
+		55F07EB52063906900755EAB /* candle_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07EB62063906900755EAB /* candle_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_SHADOW.png; sourceTree = "<group>"; };
+		55F07EB72063906900755EAB /* candle_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_NORMAL.png; sourceTree = "<group>"; };
+		55F07EB82063906900755EAB /* candle_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candle_ROUGHNESS.png; sourceTree = "<group>"; };
+		55F07EB92063906900755EAB /* candle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = candle.scn; sourceTree = "<group>"; };
+		55F07EC42063910300755EAB /* vase_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_ROUGHNESS.png; sourceTree = "<group>"; };
+		55F07EC52063910300755EAB /* vase_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_AO.png; sourceTree = "<group>"; };
+		55F07EC62063910300755EAB /* vase_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_SHADOW.png; sourceTree = "<group>"; };
+		55F07EC72063910300755EAB /* vase_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_METALLIC.png; sourceTree = "<group>"; };
+		55F07EC82063910300755EAB /* vase_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_NORMAL.png; sourceTree = "<group>"; };
+		55F07EC92063910300755EAB /* water_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07ECA2063910300755EAB /* vase_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vase_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07ECB2063910300755EAB /* vase.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = vase.scn; sourceTree = "<group>"; };
+		55F07ECE2063910400755EAB /* lamp_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_NORMAL.png; sourceTree = "<group>"; };
+		55F07ECF2063910400755EAB /* lamp_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_SHADOW.png; sourceTree = "<group>"; };
+		55F07ED02063910400755EAB /* lamp_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_METALLIC.png; sourceTree = "<group>"; };
+		55F07ED12063910400755EAB /* lamp_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07ED22063910400755EAB /* lamp_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_ROUGHNESS.png; sourceTree = "<group>"; };
+		55F07ED32063910400755EAB /* lamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lamp.scn; sourceTree = "<group>"; };
+		55F07ED52063910400755EAB /* environment_blur.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = environment_blur.exr; sourceTree = "<group>"; };
+		55F07ED62063910400755EAB /* environment.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = environment.jpg; sourceTree = "<group>"; };
+		55F07ED92063910500755EAB /* cup_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_NORMAL.png; sourceTree = "<group>"; };
+		55F07EDA2063910500755EAB /* cup_steam_SPRITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_steam_SPRITE.png; sourceTree = "<group>"; };
+		55F07EDB2063910500755EAB /* cup_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_SHADOW.png; sourceTree = "<group>"; };
+		55F07EDC2063910500755EAB /* cup_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_ROUGHNESS.png; sourceTree = "<group>"; };
+		55F07EDD2063910500755EAB /* cup_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07EDE2063910500755EAB /* cup_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_METALLIC.png; sourceTree = "<group>"; };
+		55F07EDF2063910500755EAB /* cup_AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup_AO.png; sourceTree = "<group>"; };
+		55F07EE02063910500755EAB /* cup.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cup.scn; sourceTree = "<group>"; };
+		55F07EE42063910500755EAB /* chair_METALLIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_METALLIC.png; sourceTree = "<group>"; };
+		55F07EE52063910500755EAB /* chair_SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_SHADOW.png; sourceTree = "<group>"; };
+		55F07EE62063910500755EAB /* chair_ROUGHNESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_ROUGHNESS.png; sourceTree = "<group>"; };
+		55F07EE72063910500755EAB /* chair_DIFFUSE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_DIFFUSE.png; sourceTree = "<group>"; };
+		55F07EE82063910500755EAB /* chair_NORMAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chair_NORMAL.png; sourceTree = "<group>"; };
+		55F07EE92063910500755EAB /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
+		55F07F0A206392C500755EAB /* ModelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTableViewController.swift; sourceTree = "<group>"; };
+		55F07F0C206393D300755EAB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		55F07F0D206393D300755EAB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		55F07F10206394D500755EAB /* KitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitsTableViewController.swift; sourceTree = "<group>"; };
+		55F07F142063969500755EAB /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
 		55F56AA320601B2E002FC595 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
 		6658F6051F73A3560087415E /* ARToolkitAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARToolkitAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6658F6081F73A3560087415E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,17 +212,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55017EBD206143B3008222C6 /* ARKit */ = {
-			isa = PBXGroup;
-			children = (
-				55017EBA206143B0008222C6 /* ARViewController.swift */,
-			);
-			path = ARKit;
-			sourceTree = "<group>";
-		};
 		55017EBE2062603E008222C6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55F07EE22063910500755EAB /* chair */,
+				55F07ED72063910500755EAB /* cup */,
+				55F07ECC2063910400755EAB /* lamp */,
+				55F07ED42063910400755EAB /* sharedImages */,
+				55F07EC22063910300755EAB /* vase */,
+				55F07EB02063906900755EAB /* candle */,
 				55F56AA320601B2E002FC595 /* car.dae */,
 				55F07E9620638C7B00755EAB /* car.scn */,
 				6658F6B31F74088D0087415E /* doritos-logo-big.jpg */,
@@ -177,6 +260,146 @@
 			path = ARToolkit;
 			sourceTree = "<group>";
 		};
+		55F07EB02063906900755EAB /* candle */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EB12063906900755EAB /* textures */,
+				55F07EB92063906900755EAB /* candle.scn */,
+			);
+			path = candle;
+			sourceTree = "<group>";
+		};
+		55F07EB12063906900755EAB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EB22063906900755EAB /* candle_AO.png */,
+				55F07EB32063906900755EAB /* candle_METALLIC.png */,
+				55F07EB42063906900755EAB /* flame_PARTICLE.png */,
+				55F07EB52063906900755EAB /* candle_DIFFUSE.png */,
+				55F07EB62063906900755EAB /* candle_SHADOW.png */,
+				55F07EB72063906900755EAB /* candle_NORMAL.png */,
+				55F07EB82063906900755EAB /* candle_ROUGHNESS.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		55F07EC22063910300755EAB /* vase */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EC32063910300755EAB /* textures */,
+				55F07ECB2063910300755EAB /* vase.scn */,
+			);
+			path = vase;
+			sourceTree = "<group>";
+		};
+		55F07EC32063910300755EAB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EC42063910300755EAB /* vase_ROUGHNESS.png */,
+				55F07EC52063910300755EAB /* vase_AO.png */,
+				55F07EC62063910300755EAB /* vase_SHADOW.png */,
+				55F07EC72063910300755EAB /* vase_METALLIC.png */,
+				55F07EC82063910300755EAB /* vase_NORMAL.png */,
+				55F07EC92063910300755EAB /* water_DIFFUSE.png */,
+				55F07ECA2063910300755EAB /* vase_DIFFUSE.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		55F07ECC2063910400755EAB /* lamp */ = {
+			isa = PBXGroup;
+			children = (
+				55F07ECD2063910400755EAB /* textures */,
+				55F07ED32063910400755EAB /* lamp.scn */,
+			);
+			path = lamp;
+			sourceTree = "<group>";
+		};
+		55F07ECD2063910400755EAB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				55F07ECE2063910400755EAB /* lamp_NORMAL.png */,
+				55F07ECF2063910400755EAB /* lamp_SHADOW.png */,
+				55F07ED02063910400755EAB /* lamp_METALLIC.png */,
+				55F07ED12063910400755EAB /* lamp_DIFFUSE.png */,
+				55F07ED22063910400755EAB /* lamp_ROUGHNESS.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		55F07ED42063910400755EAB /* sharedImages */ = {
+			isa = PBXGroup;
+			children = (
+				55F07ED52063910400755EAB /* environment_blur.exr */,
+				55F07ED62063910400755EAB /* environment.jpg */,
+			);
+			path = sharedImages;
+			sourceTree = "<group>";
+		};
+		55F07ED72063910500755EAB /* cup */ = {
+			isa = PBXGroup;
+			children = (
+				55F07ED82063910500755EAB /* textures */,
+				55F07EE02063910500755EAB /* cup.scn */,
+			);
+			path = cup;
+			sourceTree = "<group>";
+		};
+		55F07ED82063910500755EAB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				55F07ED92063910500755EAB /* cup_NORMAL.png */,
+				55F07EDA2063910500755EAB /* cup_steam_SPRITE.png */,
+				55F07EDB2063910500755EAB /* cup_SHADOW.png */,
+				55F07EDC2063910500755EAB /* cup_ROUGHNESS.png */,
+				55F07EDD2063910500755EAB /* cup_DIFFUSE.png */,
+				55F07EDE2063910500755EAB /* cup_METALLIC.png */,
+				55F07EDF2063910500755EAB /* cup_AO.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		55F07EE22063910500755EAB /* chair */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EE32063910500755EAB /* textures */,
+				55F07EE92063910500755EAB /* chair.scn */,
+			);
+			path = chair;
+			sourceTree = "<group>";
+		};
+		55F07EE32063910500755EAB /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				55F07EE42063910500755EAB /* chair_METALLIC.png */,
+				55F07EE52063910500755EAB /* chair_SHADOW.png */,
+				55F07EE62063910500755EAB /* chair_ROUGHNESS.png */,
+				55F07EE72063910500755EAB /* chair_DIFFUSE.png */,
+				55F07EE82063910500755EAB /* chair_NORMAL.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		55F07F122063960B00755EAB /* Kits */ = {
+			isa = PBXGroup;
+			children = (
+				55017EBA206143B0008222C6 /* ARKitViewController.swift */,
+				55F07F142063969500755EAB /* SceneKitViewController.swift */,
+				55017EC120626082008222C6 /* ARToolkit */,
+				55F07F132063967400755EAB /* BaseViewController */,
+			);
+			path = Kits;
+			sourceTree = "<group>";
+		};
+		55F07F132063967400755EAB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55F07F0C206393D300755EAB /* BaseViewController.h */,
+				55F07F0D206393D300755EAB /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
 		6658F5FC1F73A3560087415E = {
 			isa = PBXGroup;
 			children = (
@@ -199,8 +422,9 @@
 		6658F6071F73A3560087415E /* MyARApp */ = {
 			isa = PBXGroup;
 			children = (
-				55017EBD206143B3008222C6 /* ARKit */,
-				55017EC120626082008222C6 /* ARToolkit */,
+				55F07F122063960B00755EAB /* Kits */,
+				55F07F0A206392C500755EAB /* ModelsTableViewController.swift */,
+				55F07F10206394D500755EAB /* KitsTableViewController.swift */,
 				55017EBF20626048008222C6 /* Supporting Files */,
 				55017EBE2062603E008222C6 /* Resources */,
 				55017EC020626059008222C6 /* Extensions */,
@@ -404,12 +628,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F07EED2063912A00755EAB /* vase_ROUGHNESS.png in Resources */,
+				55F07F002063913800755EAB /* cup_METALLIC.png in Resources */,
+				55F07F082063913D00755EAB /* chair.scn in Resources */,
+				55F07EFE2063913800755EAB /* cup_ROUGHNESS.png in Resources */,
+				55F07EF02063912A00755EAB /* vase_METALLIC.png in Resources */,
+				55F07F052063913D00755EAB /* chair_ROUGHNESS.png in Resources */,
+				55F07EFB2063913800755EAB /* cup_NORMAL.png in Resources */,
+				55F07F062063913D00755EAB /* chair_DIFFUSE.png in Resources */,
+				55F07EF32063912A00755EAB /* vase_DIFFUSE.png in Resources */,
+				55F07EEF2063912A00755EAB /* vase_SHADOW.png in Resources */,
 				663859431F7409B9006C27C9 /* doritos-logo-big.jpg in Resources */,
+				55F07F012063913800755EAB /* cup_AO.png in Resources */,
+				55F07EBE206390B200755EAB /* candle_DIFFUSE.png in Resources */,
+				55F07EBC206390B200755EAB /* candle_METALLIC.png in Resources */,
+				55F07EEE2063912A00755EAB /* vase_AO.png in Resources */,
+				55F07F032063913D00755EAB /* chair_METALLIC.png in Resources */,
+				55F07EEC2063912300755EAB /* environment.jpg in Resources */,
+				55F07EBF206390B200755EAB /* candle_SHADOW.png in Resources */,
 				6658F6131F73A3560087415E /* LaunchScreen.storyboard in Resources */,
+				55F07EF12063912A00755EAB /* vase_NORMAL.png in Resources */,
+				55F07EBA206390AA00755EAB /* candle.scn in Resources */,
+				55F07EF92063913200755EAB /* lamp_ROUGHNESS.png in Resources */,
+				55F07EC1206390B200755EAB /* candle_ROUGHNESS.png in Resources */,
+				55F07EEB2063912300755EAB /* environment_blur.exr in Resources */,
+				55F07EFD2063913800755EAB /* cup_SHADOW.png in Resources */,
+				55F07EF72063913200755EAB /* lamp_METALLIC.png in Resources */,
 				55F56AA420601B2E002FC595 /* car.dae in Resources */,
 				55F07E9720638C7B00755EAB /* car.scn in Resources */,
+				55F07EF42063912A00755EAB /* vase.scn in Resources */,
+				55F07EFA2063913200755EAB /* lamp.scn in Resources */,
+				55F07EFF2063913800755EAB /* cup_DIFFUSE.png in Resources */,
+				55F07F072063913D00755EAB /* chair_NORMAL.png in Resources */,
+				55F07EBB206390B200755EAB /* candle_AO.png in Resources */,
 				6658F6101F73A3560087415E /* Assets.xcassets in Resources */,
+				55F07F022063913800755EAB /* cup.scn in Resources */,
 				6658F60E1F73A3560087415E /* Main.storyboard in Resources */,
+				55F07EF82063913200755EAB /* lamp_DIFFUSE.png in Resources */,
+				55F07EBD206390B200755EAB /* flame_PARTICLE.png in Resources */,
+				55F07EF22063912A00755EAB /* water_DIFFUSE.png in Resources */,
+				55F07EC0206390B200755EAB /* candle_NORMAL.png in Resources */,
+				55F07EF52063913200755EAB /* lamp_NORMAL.png in Resources */,
+				55F07EFC2063913800755EAB /* cup_steam_SPRITE.png in Resources */,
+				55F07EF62063913200755EAB /* lamp_SHADOW.png in Resources */,
+				55F07F042063913D00755EAB /* chair_SHADOW.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +682,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F07F152063969500755EAB /* SceneKitViewController.swift in Sources */,
 				6658F61D1F73B5A60087415E /* ARSceneViewController.mm in Sources */,
 				6658F6B21F7407FB0087415E /* SceneViewController.swift in Sources */,
-				55017EBC206143B0008222C6 /* ARViewController.swift in Sources */,
+				55F07F11206394D500755EAB /* KitsTableViewController.swift in Sources */,
+				55017EBC206143B0008222C6 /* ARKitViewController.swift in Sources */,
 				6658F6B01F74060D0087415E /* ARToolkitExtensions.mm in Sources */,
 				6658F6091F73A3560087415E /* AppDelegate.swift in Sources */,
+				55F07F0E206393D300755EAB /* BaseViewController.m in Sources */,
+				55F07F0B206392C500755EAB /* ModelsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
